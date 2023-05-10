@@ -25,7 +25,7 @@ For experimental purposes, with the console command line, you will need to type:
 
 ## Usage
 
-Deployed Link: 
+Deployed Link: https://boiling-shore-14986.herokuapp.com/ 
 
 Application as said before is used for Creating and saving notes or code snippets... 
 

@@ -26,8 +26,8 @@ module.exports = () => {
     }),
 
       new WebpackPwaManifest({
-        name: 'Text Editor PWA',
-        short_name: 'Txt Edit',
+        name: 'Just Another Text Editor',
+        short_name: 'JATE',
         description: 'Downloadable text editor like wordpad',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',

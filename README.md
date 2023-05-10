@@ -25,14 +25,14 @@ For experimental purposes, with the console command line, you will need to type:
 
 ## Usage
 
-Deployed Link: 
+Deployed Link: https://boiling-shore-14986.herokuapp.com/ 
 
 Application as said before is used for Creating and saving notes or code snippets... 
 
 By clicking on install it should prompt you to install the application. You can uninstall by clicking on the three dots above on the app and it gives you the option to clear the cached data. For more help on usage, please view images folder. 
 
 What the app should look like
-![screenshot]()
+![screenshot](https://github.com/gabetuason/text_editor_PWA/blob/main/images/text_editor_PWA.JPG)
 
 ## License
 

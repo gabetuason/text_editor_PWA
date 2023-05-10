@@ -5,17 +5,18 @@ const initdb = async () =>
   openDB('jate', 1, {
     // upgrade function is called when a new database is created or an existing database needs to be upgraded
     upgrade(db) {
-      // check if object store with name 'jate' already exists
+      // checking to see if jate already exists
       if (db.objectStoreNames.contains('jate')) {
         console.log('jate database already exists');
         return;
       }
-      // create a new object store called 'jate'
+      // Make new object called 'jate' with keypath id and autoincrement true
       db.createObjectStore('jate', { keyPath: 'id', autoIncrement: true }); 
       console.log('jate database created');
     },
   });
 
+// From excersize 19-PWA/03-Day-Activities/26-Stu-Manifest Solved
 // Controller to handle updates to the editor
 export const putDb = async (content) => {
   console.log('PUT to the database');
